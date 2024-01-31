@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BumbuMu | JKT48</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="whiteSection">
+        <navbar class="container" id="orangeMenu">
+            <div class="navComponents">
+                <div class="navTitle">
+                    <a href="https://www.revou.co/" target="_blank"><img src="assets/RevouLogo.png" alt="RevoU"></a>
+                </div>
+                <div class="navContent">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#ourPackage">Our Package</a></li>
+                        <li><a href="#callUs">Call Us</a></li>
+                    </ul>
+                </div>
+                <div class="humburgerMenu">
+                    <img id="humMenu" src="assets/smallImage/menu.png" alt="menu">
+                </div>
+                <div id="hidden">
+                    <ul id="hiddenUl">
+                        <li class="hiddenLi"><a href="#home">Home</a></li>
+                        <li class="hiddenLi"><a href="#ourPackage">Our Package</a></li>
+                        <li class="hiddenLi"><a href="#callUs">Call Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </navbar>
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+        <div class="container">
+            <section id="home" class="whiteSection">
+                <div class="mainTitle">
+                    <h1>BumbuMu</h1>
+                    <p>Taste the Tradition, Savor the Flavor with Bumbumu</p>
+                </div>
+                <div class="mainContent">
+                    <div class="leftLayout">
+                        <div class="imageBox">
+                            <div class="slides first">
+                                <img id="imageSlider1" src="assets/agent/bawang.png" alt="ImageSlider1">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider2" src="assets/agent/kunyit.jpg" alt="ImageSlider2">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider3" src="assets/agent/jahe.jpg" alt="ImageSlider3">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider4" src="assets/agent/lengkuas.jpg" alt="ImageSlider4">
+                            </div>
+                        </div>
+                        <div class="testimoniBox">
+                            <p id="caption">"Masakan aku jadi lebih nikmat dengan <br> BumbuMu."</p>
+                            <div class="identityBox">
+                                <div class="identityPhoto">
+                                    <img id="profilePict" src="assets/profile_picture.jpg" alt="ProfilePicture">
+                                </div>
+                                <div class="identityContent">
+                                    <h1>Azizi Shafa Asadel</h1>
+                                    <p>Indonesian Actress, 19</p>
+                                </div>
+                            </div>
+                            <hr id="captionLine">
+                        </div>
+                        <div class="benefitsExplain">
+                            <p id="benefitsExplain">Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</p>
+                            <div class="explainBox">
+                                <div class="firstBox">
+                                    <div class="nums">1</div>
+                                    <p>Home feature <br> Introduces the user that this website aims to help make your cooking more delicious..</p>
+                                </div>
+                                <div class="secondBox">
+                                    <div class="nums">2</div>
+                                    <p>Our Product <br> Displays the various spices available to make your dishes more flavorful.</p>
+                                </div>
+                                <div class="thirdBox">
+                                    <div class="nums">3</div>
+                                    <p>Calls Us <br> Visiting users can also visit social media creators.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightLayout" id="rightLayout">
+                        <div class="titleForm">
+                            <h1>Contact Us</h1>
+                            <p>Sales will contact you 1x24 hours</p>
+                            <p>after we receive your orders.</p>
+                        </div>
+                        <form action="/" id="formContact">
+                            <div class="input-control nameForm">
+                                <label for="name">Your Name:</label>
+                                <input type="text" id="name" placeholder="First and last name" autocomplete="off">
+                                <div class="error">
+                                    <img src="assets/smallImage/exclamation-mark.png" alt="error">
+                                    <p id="usernameCheckError">Your name is required</p>
+                                </div>
+                            </div>
+                            <div class="input-control emailForm">
+                                <label for="email">Email Address:</label>
+                                <input type="email" id="email" placeholder="example@gmail.com" autocomplete="off">
+                                <div class="error">
+                                    <img src="assets/smallImage/exclamation-mark.png" alt="error">
+                                    <p id="emailCheckError">Email is required</p>
+                                </div>
+                            </div>
+                            <div class="input-control optionForm">
+                                <label for="options">What are you interested in?</label>
+                                <div class="line"></div>
+                                <select id="options">
+                                    <option value="" disabled selected hidden>Select option</option>
+                                    <option>Rempah Rempah</option>
+                                    <option>Bumbu Dapur</option>
+                                    <option>Bumbu Cepat Saji</option>
+                                </select>
+                                <div class="error">
+                                    <img src="assets/smallImage/exclamation-mark.png" alt="error">
+                                    <p>Your option is required</p>
+                                </div>
+                            </div>
+                            <button id="submit" type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="ourPackage" class="coloredSection">
+            <img src="assets/WhiteWave.png" alt="WhiteWave" width="100%">
+            <div class="container" id="ourPackageSection">
+                <div class="titlePackage">
+                    <h1 id="titlePackage">Our Package</h1>
+                </div>
+                <div class="contentPackage">
+                    <div class="topPack">
+                        <div class="topContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/agent/bawang.png">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Bawang</h1>
+                                <p>This spice can make your dishes more fragrant, more delicious to eat.</p>
+                            </div>
+                        </div>
+                        <div class="topContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/agent/jahe.jpg">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Jahe</h1>
+                                <p>This spice can make your dishes more fragrant, more delicious to eat.</p>
+                            </div>
+                        </div>
+                        <div class="topContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/agent/kunyit.jpg">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Kunyit</h1>
+                                <p>This spice can make your dishes more fragrant, more delicious to eat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="midPack">
+                        <hr id="midPackage">
+                    </div>
+                    <div class="botPack">
+                        <div class="botContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/agent/lengkuas.jpg">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Lengkuas</h1>
+                                <p>This spice can make your dishes more fragrant, more delicious to eat.</p>
+                            </div>
+                        </div>
+                        <div class="botContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/agent/kencur.jpg">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Kencur</h1>
+                                <p>This spice can make your dishes more fragrant, more delicious to eat.</p>
+                            </div>
+                        </div>
+                        <div class="botContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/agent/kayumanis.jpg">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Kayu Manis</h1>
+                                <p>This spice can make your dishes more fragrant, more delicious to eat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="callUs" class="whiteSection">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#8BF500" fill-opacity="1" d="M0,160L80,160C160,160,320,160,480,149.3C640,139,800,117,960,133.3C1120,149,1280,203,1360,229.3L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+                </path>
+            </svg>
+            <div class="callUsContent">
+                <h1 id="callUsTitle">Thanks for visiting our website</h1>
+                <div class="paragraph">
+                    <p>"At Bumbumu, we don't just offer spices; we offer a passport to a culinary odyssey. Our carefully curated selection of spices embodies the heart and soul of Indonesian flavors, taking you on a journey through the diverse landscapes of taste and tradition. With Bumbumu, each meal becomes a celebration, each dish a masterpiece, and every kitchen a canvas for your culinary artistry. Elevate your cooking experience with our premium spices, and let Bumbumu be your companion in transforming ordinary meals into extraordinary memories."</p>
+                </div>
+                <button id="callUsButton"><a href="https://www.linkedin.com/in/muhammad-gilang-ramadhan-0754a4266/">CALL TO ACTION</a></button>
+                <hr id="callUsLine">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="whiteSection">
+        <div class="footerLogo">
+            <img src="assets/RevouLogo.png" alt="RevoUFooterLogo">
+        </div>
+        <div class="termPrivBox">
+            <p>Terms of Service</p>
+            <p>Privacy Policy</p>
+            <p><a href="https://www.buymeacoffee.com/langr">Support Me</a></p>
+        </div>
+        <p id="copyright">&copy; 2023 Muhammad Gilang Ramadhan</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
